@@ -27,11 +27,16 @@ The analytical approach was structured as follows:
 1. **Exploratory Data Analysis**: Identifying patterns, anomalies, and correlations within the data.
 2. **Feature Engineering**: Constructing new variables to better predict outcomes.
 3. **Model Development:**
+   
      **a. Logistic Regression:** We initially created a baseline model, achieving high accuracy (93.33%) but lower differentiation (AUC-ROC: 0.4286). A version with normalized data was also tested, which enhanced its differentiation capabilities (AUC-ROC: 0.5536).
-     **Recursive Feature Elimination (RFE):** This technique was applied to enhance logistic regression by isolating the top 10 most impactful features, boosting the model's AUC-ROC to 0.6071.
-     **Random Forest:** Implemented with 100 trees, this model demonstrated robust classification capabilities, achieving an AUC-ROC of 0.711 and an accuracy of 91.93%.
-     **XGBoost:** This model was executed with cross-validation, maintaining consistent accuracy (93.33%) and an AUC-ROC of 0.5536. Adjustments through upsampling improved the AUC-ROC to 0.5556, while downsampling reached an AUC-ROC of 0.6667, showing enhanced performance in managing class imbalances.
-     **Model Evaluation:** We utilized comprehensive metrics like Accuracy, Precision, Recall, F1-Score, and ROC-AUC to thoroughly evaluate each model.
+   
+     **b. Recursive Feature Elimination (RFE):** This technique was applied to enhance logistic regression by isolating the top 10 most impactful features, boosting the model's AUC-ROC to 0.6071.
+   
+     **c. Random Forest:** Implemented with 100 trees, this model demonstrated robust classification capabilities, achieving an AUC-ROC of 0.711 and an accuracy of 91.93%.
+   
+     **d. XGBoost:** This model was executed with cross-validation, maintaining consistent accuracy (93.33%) and an AUC-ROC of 0.5536. Adjustments through upsampling improved the AUC-ROC to 0.5556, while downsampling reached an AUC-ROC of 0.6667, showing enhanced performance in managing class imbalances.
+   
+     **e. Model Evaluation:** We utilized comprehensive metrics like Accuracy, Precision, Recall, F1-Score, and ROC-AUC to thoroughly evaluate each model.
 
 ## Challenges Encountered
 During this project, our group faced several hurdles, such as dealing with unbalanced data and many missing values. We tackled these by using sophisticated methods to fill in missing information and techniques like SMOTE to balance our data. We also found challenges in fine-tuning complex models like XGBoost, which we overcame by using hyperparameter tuning methods to find the best model settings. Another challenge was merging different types of data into a consistent format, which required us to build a strong preprocessing routine. Additionally, coordinating as a team was crucial. We managed this through regular meetings and agile project management, ensuring smooth collaboration and effective sharing of ideas. These challenges greatly sharpened our technical skills and team-working abilities.
