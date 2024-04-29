@@ -56,6 +56,9 @@ As next steps we in a group developed below models:
 ### Hyperparameter Tuning
 - Performed using `RandomizedSearchCV`, optimizing the XGBoost model to enhance performance (Kaggle Score: 0.50029).
 
+## My Role in the Project
+I focused on data preprocessing, where I managed missing values, normalized data, and encoded categorical variables to prepare the dataset for modeling. Additionally, I developed the initial logistic regression model, setting a baseline for accuracy and class distinction (AUC-ROC). My contributions were crucial in establishing the groundwork for the project's goal of advancing financial inclusion through better loan approval methods.
+
 ## Business Impact of Predictive Modeling for Loan Approvals at Home Credit
 Implementing the XGBoost model with upsampling at Home Credit offers enhanced credit risk assessment accuracy, supporting financial inclusion by enabling loans to a wider market segment while effectively managing risks. To maximize its impact, Home Credit should ensure high data integrity, continuously monitor model performance, and integrate insights into decision-making processes. Additionally, maintaining ethical standards by regularly evaluating the model for fairness will ensure it aligns with regulatory expectations and customer trust.
 
