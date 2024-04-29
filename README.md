@@ -25,6 +25,17 @@ The analytical approach was structured as follows:
    - **Logistic Regression** with and without data normalization.
    - **Recursive Feature Elimination (RFE)** to identify the most influential features.
 4. **Model Evaluation**: Using metrics such as Accuracy, Precision, Recall, F1-Score, and ROC-AUC to assess each model's performance.
+
+## Key Findings
+- Normalized models demonstrated improved predictive performance over non-normalized approaches.
+- RFE helped in pinpointing critical features, significantly optimizing the model's performance with an AUC-ROC of 0.625.
+
+## Challenges Encountered and Resolutions
+Dealing with imbalanced data and extensive missing values posed significant challenges. Techniques like synthetic data generation and advanced imputation methods were utilized to address these issues, enhancing model robustness and reliability.
+
+## Conclusion and Next Steps
+This project underscores the potential of machine learning to revolutionize financial inclusivity. Future directions include exploring more complex algorithms and incorporating real-time data feeds to continuously refine the predictive accuracy.
+
    
 
 
