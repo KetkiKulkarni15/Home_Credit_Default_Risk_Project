@@ -13,3 +13,9 @@ This project utilizes a comprehensive dataset from Home Credit, which includes s
 - **Bureau Data (`bureau.csv`, `bureau_balance.csv`)**: Information on client's past loans with other financial institutions.
 - **Previous Transactions(`previous_application.csv`, `POS_CASH_balance.csv`, `credit_card_balance.csv`, `installments_payments.csv`)**: Details on previous transactions and payment behaviors.
 
+Data preprocessing involved handling missing values, encoding categorical features, and creating new features that better capture the underlying credit risk.
+
+## Technologies and Tools
+- **Python** for all data processing and modeling.
+- **Pandas** for data manipulation, **Matplotlib/Seaborn** for visualization, **Scikit-Learn** for machine learning, and **XGBoost** for applying ensemble techniques to enhance model performance.
+
