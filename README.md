@@ -56,8 +56,10 @@ As next steps we in a group developed below models:
 ### Hyperparameter Tuning
 - Performed using `RandomizedSearchCV`, optimizing the XGBoost model to enhance performance (Kaggle Score: 0.50029).
 
-## Recommendation to Home Credit
-We recommend that Home Credit adopt the XGBoost model with upsampling techniques to enhance loan approval accuracy and manage risks more effectively. Ensuring high data quality and periodic model retraining are crucial for maintaining performance, especially as financial behaviors evolve. Continuous monitoring of performance metrics like accuracy and AUC-ROC will help identify when adjustments are needed. Additionally, integrating the model's insights into the existing risk management framework can optimize decision-making processes and promote responsible lending practices that align with Home Credit's commitment to financial inclusion.
+## Business Impact of Predictive Modeling for Loan Approvals at Home Credit
+Implementing the XGBoost model with upsampling at Home Credit offers enhanced credit risk assessment accuracy, supporting financial inclusion by enabling loans to a wider market segment while effectively managing risks. To maximize its impact, Home Credit should ensure high data integrity, continuously monitor model performance, and integrate insights into decision-making processes. Additionally, maintaining ethical standards by regularly evaluating the model for fairness will ensure it aligns with regulatory expectations and customer trust.
+
+
 
 
 
